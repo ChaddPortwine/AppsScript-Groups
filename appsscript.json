@@ -1,0 +1,27 @@
+{
+  "timeZone": "America/New_York",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "AdminDirectory",
+        "serviceId": "admin",
+        "version": "directory_v1"
+      },
+      {
+        "userSymbol": "AdminGroupsSettings",
+        "serviceId": "groupssettings",
+        "version": "v1"
+      }
+    ],
+    "libraries": [
+      {
+        "userSymbol": "AppsScriptCLASP",
+        "version": "0",
+        "libraryId": "1VS_1VSXWstuXD2KUhWX3nGuPWHzEczCsytK4dnmIh8LUr3_HhUvnqbP8",
+        "developmentMode": true
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8"
+}
