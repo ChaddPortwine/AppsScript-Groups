@@ -1,3 +1,3 @@
-function main() {
-  getGroupsData();
+function updateSheet() {
+  postGroupsDataToSheet()
 }
