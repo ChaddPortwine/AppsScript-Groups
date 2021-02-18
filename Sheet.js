@@ -9,7 +9,7 @@ function postGroupsDataToSheet() {
 /**
  * Updates the ADMINDATA sheet
  * with fresh data from G Suite
- * @returns undefinded
+ * @returns undefined
  */
 function updateSheetAdminData() {
     const sheetName = "ADMINDATA";
@@ -53,7 +53,7 @@ function createTable(object) {
  * using a table's data and shape
  * @param {string} sheetName - The name of the sheet
  * @param {Array} table - Header row of keys and rows of paired values
- * @returns undefinded
+ * @returns undefined
  */
 function createRange(sheetName, table) {
     const rowCount = (table.length);
